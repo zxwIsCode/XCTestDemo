@@ -7,15 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8BDE25971EFA5A44002E0E79 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BDE25961EFA5A44002E0E79 /* main.m */; };
-		8BDE259A1EFA5A44002E0E79 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BDE25991EFA5A44002E0E79 /* AppDelegate.m */; };
 		8BDE25A01EFA5A44002E0E79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BDE259E1EFA5A44002E0E79 /* Main.storyboard */; };
 		8BDE25A21EFA5A44002E0E79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BDE25A11EFA5A44002E0E79 /* Assets.xcassets */; };
 		8BDE25A51EFA5A44002E0E79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BDE25A31EFA5A44002E0E79 /* LaunchScreen.storyboard */; };
 		8BDE25B01EFA5A44002E0E79 /* XCTestDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BDE25AF1EFA5A44002E0E79 /* XCTestDemoTests.m */; };
 		8BDE25BB1EFA5A44002E0E79 /* XCTestDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BDE25BA1EFA5A44002E0E79 /* XCTestDemoUITests.m */; };
-		8BDE25CA1EFA5E3E002E0E79 /* TeFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BDE25C91EFA5E3E002E0E79 /* TeFirstViewController.m */; };
-		8BDE25CD1EFA5E53002E0E79 /* TeSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BDE25CC1EFA5E53002E0E79 /* TeSecondViewController.m */; };
+		8BDE25D91EFA72F0002E0E79 /* TeFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BDE25D11EFA72F0002E0E79 /* TeFirstViewController.m */; };
+		8BDE25DA1EFA72F0002E0E79 /* TeSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BDE25D31EFA72F0002E0E79 /* TeSecondViewController.m */; };
+		8BDE25DB1EFA72F0002E0E79 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BDE25D61EFA72F0002E0E79 /* AppDelegate.m */; };
+		8BDE25DC1EFA72F0002E0E79 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8BDE25D71EFA72F0002E0E79 /* Info.plist */; };
+		8BDE25DD1EFA72F0002E0E79 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BDE25D81EFA72F0002E0E79 /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,23 +38,23 @@
 
 /* Begin PBXFileReference section */
 		8BDE25921EFA5A44002E0E79 /* XCTestDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XCTestDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		8BDE25961EFA5A44002E0E79 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		8BDE25981EFA5A44002E0E79 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		8BDE25991EFA5A44002E0E79 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		8BDE259F1EFA5A44002E0E79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8BDE25A11EFA5A44002E0E79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8BDE25A41EFA5A44002E0E79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		8BDE25A61EFA5A44002E0E79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8BDE25AB1EFA5A44002E0E79 /* XCTestDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XCTestDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BDE25AF1EFA5A44002E0E79 /* XCTestDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XCTestDemoTests.m; sourceTree = "<group>"; };
 		8BDE25B11EFA5A44002E0E79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8BDE25B61EFA5A44002E0E79 /* XCTestDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XCTestDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BDE25BA1EFA5A44002E0E79 /* XCTestDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XCTestDemoUITests.m; sourceTree = "<group>"; };
 		8BDE25BC1EFA5A44002E0E79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8BDE25C81EFA5E3E002E0E79 /* TeFirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeFirstViewController.h; sourceTree = "<group>"; };
-		8BDE25C91EFA5E3E002E0E79 /* TeFirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeFirstViewController.m; sourceTree = "<group>"; };
-		8BDE25CB1EFA5E53002E0E79 /* TeSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeSecondViewController.h; sourceTree = "<group>"; };
-		8BDE25CC1EFA5E53002E0E79 /* TeSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeSecondViewController.m; sourceTree = "<group>"; };
+		8BDE25D01EFA72F0002E0E79 /* TeFirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeFirstViewController.h; sourceTree = "<group>"; };
+		8BDE25D11EFA72F0002E0E79 /* TeFirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeFirstViewController.m; sourceTree = "<group>"; };
+		8BDE25D21EFA72F0002E0E79 /* TeSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeSecondViewController.h; sourceTree = "<group>"; };
+		8BDE25D31EFA72F0002E0E79 /* TeSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeSecondViewController.m; sourceTree = "<group>"; };
+		8BDE25D51EFA72F0002E0E79 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8BDE25D61EFA72F0002E0E79 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8BDE25D71EFA72F0002E0E79 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BDE25D81EFA72F0002E0E79 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,16 +105,8 @@
 		8BDE25941EFA5A44002E0E79 /* XCTestDemo */ = {
 			isa = PBXGroup;
 			children = (
-				8BDE25981EFA5A44002E0E79 /* AppDelegate.h */,
-				8BDE25991EFA5A44002E0E79 /* AppDelegate.m */,
-				8BDE25C81EFA5E3E002E0E79 /* TeFirstViewController.h */,
-				8BDE25C91EFA5E3E002E0E79 /* TeFirstViewController.m */,
-				8BDE25CB1EFA5E53002E0E79 /* TeSecondViewController.h */,
-				8BDE25CC1EFA5E53002E0E79 /* TeSecondViewController.m */,
-				8BDE259E1EFA5A44002E0E79 /* Main.storyboard */,
-				8BDE25A11EFA5A44002E0E79 /* Assets.xcassets */,
-				8BDE25A31EFA5A44002E0E79 /* LaunchScreen.storyboard */,
-				8BDE25A61EFA5A44002E0E79 /* Info.plist */,
+				8BDE25CE1EFA72F0002E0E79 /* Class */,
+				8BDE25D41EFA72F0002E0E79 /* General */,
 				8BDE25951EFA5A44002E0E79 /* Supporting Files */,
 			);
 			path = XCTestDemo;
@@ -122,7 +115,9 @@
 		8BDE25951EFA5A44002E0E79 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				8BDE25961EFA5A44002E0E79 /* main.m */,
+				8BDE259E1EFA5A44002E0E79 /* Main.storyboard */,
+				8BDE25A11EFA5A44002E0E79 /* Assets.xcassets */,
+				8BDE25A31EFA5A44002E0E79 /* LaunchScreen.storyboard */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -143,6 +138,36 @@
 				8BDE25BC1EFA5A44002E0E79 /* Info.plist */,
 			);
 			path = XCTestDemoUITests;
+			sourceTree = "<group>";
+		};
+		8BDE25CE1EFA72F0002E0E79 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				8BDE25CF1EFA72F0002E0E79 /* Controllers */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		8BDE25CF1EFA72F0002E0E79 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8BDE25D01EFA72F0002E0E79 /* TeFirstViewController.h */,
+				8BDE25D11EFA72F0002E0E79 /* TeFirstViewController.m */,
+				8BDE25D21EFA72F0002E0E79 /* TeSecondViewController.h */,
+				8BDE25D31EFA72F0002E0E79 /* TeSecondViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		8BDE25D41EFA72F0002E0E79 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				8BDE25D51EFA72F0002E0E79 /* AppDelegate.h */,
+				8BDE25D61EFA72F0002E0E79 /* AppDelegate.m */,
+				8BDE25D71EFA72F0002E0E79 /* Info.plist */,
+				8BDE25D81EFA72F0002E0E79 /* main.m */,
+			);
+			path = General;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -255,6 +280,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BDE25DC1EFA72F0002E0E79 /* Info.plist in Resources */,
 				8BDE25A51EFA5A44002E0E79 /* LaunchScreen.storyboard in Resources */,
 				8BDE25A21EFA5A44002E0E79 /* Assets.xcassets in Resources */,
 				8BDE25A01EFA5A44002E0E79 /* Main.storyboard in Resources */,
@@ -282,10 +308,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8BDE25CD1EFA5E53002E0E79 /* TeSecondViewController.m in Sources */,
-				8BDE259A1EFA5A44002E0E79 /* AppDelegate.m in Sources */,
-				8BDE25CA1EFA5E3E002E0E79 /* TeFirstViewController.m in Sources */,
-				8BDE25971EFA5A44002E0E79 /* main.m in Sources */,
+				8BDE25D91EFA72F0002E0E79 /* TeFirstViewController.m in Sources */,
+				8BDE25DA1EFA72F0002E0E79 /* TeSecondViewController.m in Sources */,
+				8BDE25DD1EFA72F0002E0E79 /* main.m in Sources */,
+				8BDE25DB1EFA72F0002E0E79 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,7 +461,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = V3VWCC65R7;
-				INFOPLIST_FILE = XCTestDemo/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/XCTestDemo/General/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jgrm1041.XCTestDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -447,7 +473,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = V3VWCC65R7;
-				INFOPLIST_FILE = XCTestDemo/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/XCTestDemo/General/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jgrm1041.XCTestDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -523,6 +549,7 @@
 				8BDE25C11EFA5A44002E0E79 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8BDE25C21EFA5A44002E0E79 /* Build configuration list for PBXNativeTarget "XCTestDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -531,6 +558,7 @@
 				8BDE25C41EFA5A44002E0E79 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8BDE25C51EFA5A44002E0E79 /* Build configuration list for PBXNativeTarget "XCTestDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -539,6 +567,7 @@
 				8BDE25C71EFA5A44002E0E79 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
